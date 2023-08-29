@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Playfair Display', serif;
+}
 
 .cabeçalho{
     background-color: #AACFD7;
@@ -13,11 +16,148 @@
 }
 
 .cabeçalho-imagem{
-width: 30%;
+width: 40%;
 }
 
 .cabeçalho-lista-item{
     display: inline-block;
     margin: 0 16px;
     font-size: 24px;
+}
+
+.Coréia-imagem{
+width: 25%;
+}
+
+.Drama{
+    background-image: linear-gradient(#AACFD7,#D5E1EA);
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.site-div-conteudo{
+    width: 35%;
+}
+.site-titulo{
+    padding: 24px 0;
+}
+
+.coroa-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.dorama-div{
+    text-align: center;
+}
+
+.mask-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+.dorama-image{
+    width: 62%
+}
+
+.doramas-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+.doramas-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.life-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.dorama-3-image{
+    width: 62%;
+}
+
+.bunny-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.dorama-4-image{
+    width: 62%;
+}
+.uncanny-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+.dorama-5-image{
+    width: 64%;
+}
+.netflix-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+.doramogo-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.dorama-6-image{
+    width: 62%;
+}
+
+.dorama-7-image{
+    width: 67%;
+}
+
+.dorama-8-image{
+    width: 62%;
+}
+.icone-finger{
+    width: 30px;
+    padding: 4px 8px;
+}
+
+.hbo-icone{
+    width: 30px;
+    padding: 4px 8px;
+}
+
+.icone-dois-mundos{
+    width: 30px;
+    padding: 4px 8px;
+}
+
+.dorama-9-image{
+    width: 63%;
+}
+
+
+.icone-destined{
+    width: 24px;
+    padding: 4px 8px;
+}
+.icone-heartbeat{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.viki-icone{
+    width: 22px;
+    padding: 4px 8px;
+}
+
+.icone-heartbeat{
+    width: 24px;
+    padding: 4px 8px;
+}
+.rodape{
+    background-color: #AACFD7;
+    text-align: center;
+}
+.rodape-imagem{
+    height: 70px;
+    padding: 12px 0;
 }
